@@ -2,14 +2,12 @@
 using namespace std;
 
 int main() {
-	int T,x[100],i,a;
-	cin>>T;
-	for(i=0;i<T;i++) cin>>x[i];
-	for(i=0;i<T;i++){
-	    if(x[i]>100){
-	        a=x[i]-10; cout<<a<<endl;
-	    }
-	    else cout<<x[i]<<endl;
+	int t,x;
+	cin>>t;
+	while(t--){
+	    cin>>x;
+	    if(x>100) cout<<x-10<<endl;
+	    else cout<<x<<endl;
 	}
 	return 0;
 }
