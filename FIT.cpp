@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-	int T,x[10],i,X;
-	cin>>T;
-	for(i=0;i<T;i++) cin>>x[i];
-	for(i=0;i<T;i++){ 
-	X=10*x[i];
-	cout<<X<<endl;}
+	int t,distance;
+	cin>>t;
+	while(t--){
+	    cin>>distance;
+	    cout<<10*distance<<endl;
+	}
 	return 0;
 }
